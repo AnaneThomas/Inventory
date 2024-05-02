@@ -8,17 +8,17 @@
                 <div class="sb-sidenav-menu">
                     <div class="nav">
                         <div class="sb-sidenav-menu-heading">Core</div>
-                        <a class="nav-link <?= $page == 'index.php' ? 'active':''; ?>" href="index.php">
+                        <a class="nav-link <?= $page == 'index.html' ? 'active':''; ?>" href="index.html">
                             <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                             Dashboard
                         </a>
 
-                        <a class="nav-link <?= $page == 'order-create.php' ? 'active':''; ?>" href="order-create.php">
+                        <a class="nav-link <?= $page == 'order-create.html' ? 'active':''; ?>" href="order-create.html">
                             <div class="sb-nav-link-icon"><i class="fas fa-bell"></i></div>
                             Create Order
                         </a>
 
-                        <a class="nav-link <?= $page == 'order.php' ? 'active':''; ?>" href="order.php">
+                        <a class="nav-link <?= $page == 'order.html' ? 'active':''; ?>" href="order.html">
                             <div class="sb-nav-link-icon"><i class="fas fa-list"></i></div>
                             Orders
                         </a>
@@ -26,7 +26,7 @@
                         <div class="sb-sidenav-menu-heading">Interface</div>
 
                         <a class="nav-link 
-                        <?= ($page == 'category-create.php') || ($page == 'category.php') ? 'collapse active':'collapsed'; ?>" href="#" 
+                        <?= ($page == 'category-create.html') || ($page == 'category.html') ? 'collapse active':'collapsed'; ?>" href="#" 
                         data-bs-toggle="collapse" 
                         data-bs-target="#collapsecategory" aria-expanded="false" aria-controls="collapsecategory">
                             <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
@@ -35,19 +35,19 @@
                         </a>
                         <div class="collapse 
 
-                        <?= $page == 'category-create.php' ? 'show':''; ?>
-                        <?= $page == 'category.php' ? 'show':''; ?>
+                        <?= $page == 'category-create.html' ? 'show':''; ?>
+                        <?= $page == 'category.html' ? 'show':''; ?>
 
                         " id="collapsecategory" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                             <nav class="sb-sidenav-menu-nested nav">
-                                <a class="nav-link <?= $page == 'category-create.php' ? 'active':''; ?>" href="category-create.php">Create Category</a>
-                                <a class="nav-link <?= $page == 'category.php' ? 'active':''; ?>" href="category.php">View Category</a>
+                                <a class="nav-link <?= $page == 'category-create.html' ? 'active':''; ?>" href="category-create.html">Create Category</a>
+                                <a class="nav-link <?= $page == 'category.html' ? 'active':''; ?>" href="category.html">View Category</a>
                             </nav>
                         </div>
 
    
                         <a class="nav-link 
-                        <?= ($page == 'product-create.php') || ($page == 'product.php')? 'collapse active':'collapsed'; ?>" href="#" 
+                        <?= ($page == 'product-create.html') || ($page == 'product.html')? 'collapse active':'collapsed'; ?>" href="#" 
                         data-bs-toggle="collapse" 
                         data-bs-target="#collapseProduct" aria-expanded="false" aria-controls="collapseProduct">
                             <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
@@ -56,13 +56,13 @@
                         </a>
                         <div class="collapse 
 
-                        <?= $page == 'product-create.php' ? 'show':''; ?>
-                        <?= $page == 'product.php' ? 'show':''; ?>
+                        <?= $page == 'product-create.html' ? 'show':''; ?>
+                        <?= $page == 'product.html' ? 'show':''; ?>
 
                         " id="collapseProduct" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                             <nav class="sb-sidenav-menu-nested nav">
-                                <a class="nav-link <?= $page == 'product-create.php' ? 'active':''; ?>" href="product-create.php">Create Products</a>
-                                <a class="nav-link <?= $page == 'product.php' ? 'active':''; ?>" href="product.php">View Products</a>
+                                <a class="nav-link <?= $page == 'product-create.html' ? 'active':''; ?>" href="product-create.html">Create Products</a>
+                                <a class="nav-link <?= $page == 'product.html' ? 'active':''; ?>" href="product.html">View Products</a>
                             </nav>
                         </div>
                         
@@ -70,7 +70,7 @@
                         <div class="sb-sidenav-menu-heading">Manage Users</div>
 
                         <a class="nav-link 
-                        <?= ($page == 'customer-create.php') || ($page == 'customer.php') ? 'collapse active':'collapsed'; ?> " href="#" 
+                        <?= ($page == 'customer-create.html') || ($page == 'customer.html') ? 'collapse active':'collapsed'; ?> " href="#" 
                         data-bs-toggle="collapse" 
                         data-bs-target="#collapseCustomer"
                         aria-expanded="false" aria-controls="collapseCustomer">
@@ -80,18 +80,18 @@
                         </a>
                         <div class="collapse 
 
-                        <?= $page == 'customer-create.php' ? 'show':''; ?>
-                        <?= $page == 'customer.php' ? 'show':''; ?>
+                        <?= $page == 'customer-create.html' ? 'show':''; ?>
+                        <?= $page == 'customer.html' ? 'show':''; ?>
 
                         " id="collapseCustomer" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                             <nav class="sb-sidenav-menu-nested nav">
-                                <a class="nav-link <?= $page == 'customer-create.php' ? 'active':''; ?>" href="customer-create.php">Add Customer</a>
-                                <a class="nav-link <?= $page == 'customer.php' ? 'active':''; ?>" href="customer.php">View Customer</a>
+                                <a class="nav-link <?= $page == 'customer-create.html' ? 'active':''; ?>" href="customer-create.html">Add Customer</a>
+                                <a class="nav-link <?= $page == 'customer.html' ? 'active':''; ?>" href="customer.html">View Customer</a>
                             </nav>
                         </div>
 
                         <a class="nav-link
-                        <?= ($page == 'admin-create.php') || ($page == 'admin.php') ? 'collapse active':'collapsed'; ?>" href="#" 
+                        <?= ($page == 'admin-create.html') || ($page == 'admin.html') ? 'collapse active':'collapsed'; ?>" href="#" 
                         data-bs-toggle="collapse" 
                         data-bs-target="#collapseAdmin"
                         aria-expanded="false" aria-controls="collapseAdmin">
@@ -106,8 +106,8 @@
 
                         " id="collapseAdmin" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                             <nav class="sb-sidenav-menu-nested nav">
-                                <a class="nav-link <?= $page == 'admin-create.php' ? 'active':''; ?>" href="admin-create.php">Add Admin</a>
-                                <a class="nav-link <?= $page == 'admin.php' ? 'active':''; ?>" href="admin.php">View Admin</a>
+                                <a class="nav-link <?= $page == 'admin-create.html' ? 'active':''; ?>" href="admin-create.html">Add Admin</a>
+                                <a class="nav-link <?= $page == 'admin.html' ? 'active':''; ?>" href="admin.html">View Admin</a>
                             </nav>
                         </div>
 

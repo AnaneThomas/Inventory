@@ -1,10 +1,10 @@
-<?php include('includes/header.php'); ?>
+<?php include('includes/header.html'); ?>
 
 <div class="container-fluid px-4">
     <div class="card mt-4 shadow-ms">
         <div class="card-header">
             <h4 class="mb-0">Add Admin
-                <a href="admin.php" class="btn btn-danger float-end">Back</a>
+                <a href="admin.html" class="btn btn-danger float-end">Back</a>
             </h4>
         </div>
         <div class="card-body">
@@ -45,4 +45,4 @@
     </div>
 </div>
 
-<?php include('includes/footer.php'); ?>
+<?php include('includes/footer.html'); ?>
